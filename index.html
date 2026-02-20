@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio profesional de Jaime Andrés Herrera Barraza — Ingeniero Informático & Desarrollador Full-Stack." />
+  <meta name="author" content="Jaime Andrés Herrera Barraza" />
+  <title>Jaime Herrera | Full-Stack Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container" aria-label="Navegación principal">
+      <a href="#hero" class="nav-logo" aria-label="Inicio">&lt; JAH /&gt;</a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#stack" class="nav-link">Stack</a></li>
+        <li><a href="#experience" class="nav-link">Experiencia</a></li>
+        <li><a href="#projects" class="nav-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link">Contacto</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="nav-mobile" id="navMenu" aria-hidden="true">
+      <ul role="list">
+        <li><a href="#about" class="nav-link mobile-link">Sobre mí</a></li>
+        <li><a href="#stack" class="nav-link mobile-link">Stack</a></li>
+        <li><a href="#experience" class="nav-link mobile-link">Experiencia</a></li>
+        <li><a href="#projects" class="nav-link mobile-link">Proyectos</a></li>
+        <li><a href="#contact" class="nav-link mobile-link">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-label="Presentación">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-greeting reveal">
+          <span class="accent-text">// Hola, mundo. Mi nombre es</span>
+        </p>
+        <h1 class="hero-name reveal">Jaime Andrés<br />Herrera Barraza</h1>
+        <h2 class="hero-role reveal">
+          <span class="typed-prefix">_</span>Ingeniero Informático &amp; Desarrollador Full-Stack
+        </h2>
+        <p class="hero-desc reveal">
+          Especializado en el diseño de soluciones escalables, integración de sistemas
+          y eficiencia operativa. Transformo procesos de negocio complejos en software que funciona.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-rocket" aria-hidden="true"></i> Ver Proyectos
+          </a>
+          <a href="cv-jaime-herrera.pdf" class="btn btn-outline" download aria-label="Descargar CV de Jaime Herrera">
+            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Descargar CV
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════════════ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">01. about_me</span>
+          <h2 id="about-title" class="section-title">Sobre Mí</h2>
+          <div class="title-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Soy <strong>Ingeniero Informático</strong> titulado con sólida experiencia en el desarrollo de
+              aplicaciones web full-stack y en la operación de entornos logísticos e industriales. Esta combinación
+              me permite diseñar software que no solo funciona técnicamente, sino que resuelve problemas reales
+              de negocio con precisión.
+            </p>
+            <p>
+              Mi trayectoria comprende el desarrollo de plataformas orientadas a la gestión de negocios, la
+              construcción de sitios corporativos y comerciales, y la automatización de procesos de control de
+              inventarios. Trabajo con el stack <strong>MERN</strong> como columna vertebral, complementado con
+              Python para scripting y análisis, y PHP/SQL para sistemas de información legacy.
+            </p>
+            <p>
+              Creo en el código limpio, la arquitectura escalable y la colaboración efectiva. Cada proyecto es
+              una oportunidad de entregar una solución que genere valor medible.
+            </p>
+            <ul class="about-highlights">
+              <li><i class="fa-solid fa-terminal accent-text" aria-hidden="true"></i> Desarrollo Full-Stack (MERN)</li>
+              <li><i class="fa-solid fa-terminal accent-text" aria-hidden="true"></i> Integración de sistemas y APIs REST</li>
+              <li><i class="fa-solid fa-terminal accent-text" aria-hidden="true"></i> Gestión de inventarios &amp; logística</li>
+              <li><i class="fa-solid fa-terminal accent-text" aria-hidden="true"></i> Automatización de procesos operativos</li>
+            </ul>
+          </div>
+
+          <div class="about-card reveal">
+            <div class="code-card" aria-label="Perfil en formato código">
+              <div class="code-card-header" aria-hidden="true">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="code-filename">profile.json</span>
+              </div>
+              <pre class="code-card-body"><code>{
+  <span class="key">"nombre"</span>: <span class="str">"Jaime Herrera"</span>,
+  <span class="key">"rol"</span>: <span class="str">"Full-Stack Developer"</span>,
+  <span class="key">"ubicacion"</span>: <span class="str">"Chile"</span>,
+  <span class="key">"disponibilidad"</span>: <span class="bool">true</span>,
+  <span class="key">"enfoque"</span>: [
+    <span class="str">"Scalable Web Apps"</span>,
+    <span class="str">"System Integration"</span>,
+    <span class="str">"Operational Efficiency"</span>
+  ],
+  <span class="key">"idiomas"</span>: {
+    <span class="str">"Español"</span>: <span class="str">"Nativo"</span>,
+    <span class="str">"Inglés"</span>: <span class="str">"Intermedio"</span>
+  }
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         STACK TECNOLÓGICO
+    ═══════════════════════════════════════════ -->
+    <section class="section stack" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">02. tech_stack</span>
+          <h2 id="stack-title" class="section-title">Stack Tecnológico</h2>
+          <div class="title-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-card reveal" aria-label="HTML5">
+            <i class="devicon-html5-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">HTML5</span>
+          </article>
+          <article class="stack-card reveal" aria-label="CSS3">
+            <i class="devicon-css3-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">CSS3</span>
+          </article>
+          <article class="stack-card reveal" aria-label="JavaScript">
+            <i class="devicon-javascript-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">JavaScript</span>
+          </article>
+          <article class="stack-card reveal" aria-label="React">
+            <i class="devicon-react-original colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">React</span>
+          </article>
+          <article class="stack-card reveal" aria-label="Node.js">
+            <i class="devicon-nodejs-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">Node.js</span>
+          </article>
+          <article class="stack-card reveal" aria-label="Express.js">
+            <i class="devicon-express-original stack-icon express-icon" aria-hidden="true"></i>
+            <span class="stack-name">Express.js</span>
+          </article>
+          <article class="stack-card reveal" aria-label="MongoDB">
+            <i class="devicon-mongodb-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">MongoDB</span>
+          </article>
+          <article class="stack-card reveal" aria-label="Python">
+            <i class="devicon-python-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">Python</span>
+          </article>
+          <article class="stack-card reveal" aria-label="PHP">
+            <i class="devicon-php-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">PHP</span>
+          </article>
+          <article class="stack-card reveal" aria-label="SQL">
+            <i class="devicon-mysql-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">SQL / MySQL</span>
+          </article>
+          <article class="stack-card reveal" aria-label="Git">
+            <i class="devicon-git-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">Git</span>
+          </article>
+          <article class="stack-card reveal" aria-label="VS Code">
+            <i class="devicon-vscode-plain colored stack-icon" aria-hidden="true"></i>
+            <span class="stack-name">VS Code</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         EXPERIENCIA
+    ═══════════════════════════════════════════ -->
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">03. experience</span>
+          <h2 id="experience-title" class="section-title">Experiencia Profesional</h2>
+          <div class="title-line" aria-hidden="true"></div>
+        </div>
+
+        <ol class="timeline" role="list">
+
+          <!-- Loginsa Senior -->
+          <li class="timeline-item reveal highlight-item">
+            <div class="timeline-dot" aria-hidden="true">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-meta">
+                <span class="timeline-date">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  Jul 2021 — Mar 2023
+                </span>
+                <span class="timeline-badge tech-badge">Operaciones & TI</span>
+              </div>
+              <h3 class="timeline-role">Asistente de Operaciones y Control de Inventarios</h3>
+              <span class="timeline-company">
+                <i class="fa-solid fa-building" aria-hidden="true"></i> Loginsa
+              </span>
+              <ul class="timeline-duties">
+                <li>Gestión y control del inventario en bodega industrial mediante sistemas ERP.</li>
+                <li>Análisis de datos operativos para optimizar flujos de entrada/salida de mercancía.</li>
+                <li>Coordinación con equipos de logística y automatización de reportes en Excel/Python.</li>
+                <li>Implementación de mejoras en procesos que redujeron tiempos de despacho.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Igestec -->
+          <li class="timeline-item reveal highlight-item">
+            <div class="timeline-dot" aria-hidden="true">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-meta">
+                <span class="timeline-date">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  May 2020 — Jul 2020
+                </span>
+                <span class="timeline-badge tech-badge">Datos & TI</span>
+              </div>
+              <h3 class="timeline-role">Gestor de Datos e Inventario</h3>
+              <span class="timeline-company">
+                <i class="fa-solid fa-building" aria-hidden="true"></i> Igestec
+              </span>
+              <ul class="timeline-duties">
+                <li>Administración y mantenimiento de bases de datos de inventario.</li>
+                <li>Generación de informes y dashboards para la toma de decisiones gerenciales.</li>
+                <li>Soporte técnico en la gestión y migración de datos operativos.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Loginsa Práctica -->
+          <li class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-meta">
+                <span class="timeline-date">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  Mar 2020 — May 2020
+                </span>
+                <span class="timeline-badge dev-badge">Desarrollo</span>
+              </div>
+              <h3 class="timeline-role">Analista Programador <em>(Práctica Profesional)</em></h3>
+              <span class="timeline-company">
+                <i class="fa-solid fa-building" aria-hidden="true"></i> Loginsa
+              </span>
+              <ul class="timeline-duties">
+                <li>Desarrollo y mantenimiento de módulos del sistema interno de gestión.</li>
+                <li>Colaboración en el análisis de requerimientos y documentación técnica.</li>
+                <li>Uso de PHP, SQL y metodologías ágiles para entrega de funcionalidades.</li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Carnes Monica -->
+          <li class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-meta">
+                <span class="timeline-date">
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  Jul 2020 — Ene 2021
+                </span>
+                <span class="timeline-badge admin-badge">Administración</span>
+              </div>
+              <h3 class="timeline-role">Asistente Administrativo y de Ventas</h3>
+              <span class="timeline-company">
+                <i class="fa-solid fa-building" aria-hidden="true"></i> Carnes Mónica
+              </span>
+              <ul class="timeline-duties">
+                <li>Gestión de pedidos, facturación y atención a clientes del canal HORECA.</li>
+                <li>Control de stock y coordinación de despachos diarios.</li>
+                <li>Manejo de herramientas ofimáticas para el seguimiento de ventas.</li>
+              </ul>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PROYECTOS
+    ═══════════════════════════════════════════ -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">04. projects</span>
+          <h2 id="projects-title" class="section-title">Proyectos Destacados</h2>
+          <div class="title-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Vitrinex -->
+          <article class="project-card featured-card reveal" aria-label="Proyecto Vitrinex">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <i class="fa-solid fa-store"></i>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="Ver código fuente de Vitrinex" title="Código fuente">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a href="#" class="project-link" aria-label="Ver demo de Vitrinex" title="Demo en vivo">
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <span class="project-featured-label">✦ Proyecto de Título</span>
+                <h3 class="project-title">Vitrinex</h3>
+                <p class="project-desc">
+                  Plataforma web diseñada para potenciar la visibilidad digital y la gestión operativa de negocios.
+                  Permite a comercios crear su vitrina online, administrar productos, gestionar reservas y analizar
+                  métricas de rendimiento desde un panel centralizado.
+                </p>
+                <ul class="project-tech" aria-label="Tecnologías usadas">
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                  <li>JWT</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- DF Asesorías -->
+          <article class="project-card reveal" aria-label="Proyecto DF Asesorías">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="Ver código fuente de DF Asesorías" title="Código fuente">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a href="#" class="project-link" aria-label="Ver demo de DF Asesorías" title="Demo en vivo">
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">DF Asesorías</h3>
+                <p class="project-desc">
+                  Sitio web profesional y corporativo para una firma de asesoría contable y financiera. Diseño
+                  formal, secciones de servicios, equipo profesional y formulario de contacto integrado con
+                  gestión de leads.
+                </p>
+                <ul class="project-tech" aria-label="Tecnologías usadas">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- Camicure -->
+          <article class="project-card reveal" aria-label="Proyecto Camicure">
+            <div class="project-card-inner">
+              <div class="project-header">
+                <div class="project-icon-wrap" aria-hidden="true">
+                  <i class="fa-solid fa-scissors"></i>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="Ver código fuente de Camicure" title="Código fuente">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  </a>
+                  <a href="#" class="project-link" aria-label="Ver demo de Camicure" title="Demo en vivo">
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Camicure</h3>
+                <p class="project-desc">
+                  Plataforma comercial y de reservas online para un centro de estética y belleza. Sistema de
+                  agendamiento de citas en tiempo real, catálogo de servicios y pasarela de comunicación
+                  directa con el cliente.
+                </p>
+                <ul class="project-tech" aria-label="Tecnologías usadas">
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>MySQL</li>
+                  <li>REST API</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACTO
+    ═══════════════════════════════════════════ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">05. contact</span>
+          <h2 id="contact-title" class="section-title">Hablemos</h2>
+          <div class="title-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="contact-intro">
+              ¿Tienes un proyecto en mente, una vacante disponible o simplemente quieres conectar?
+              Estoy abierto a nuevas oportunidades. Mi bandeja de entrada está siempre disponible.
+            </p>
+            <ul class="contact-list" role="list">
+              <li>
+                <a href="mailto:Jaimejym1999@gmail.com" class="contact-item" aria-label="Enviar correo a Jaimejym1999@gmail.com">
+                  <span class="contact-item-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
+                  <span>Jaimejym1999@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jaime-herrera-b78470241/" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="Perfil de LinkedIn de Jaime Herrera">
+                  <span class="contact-item-icon" aria-hidden="true"><i class="fa-brands fa-linkedin"></i></span>
+                  <span>linkedin.com/in/jaime-herrera</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Jvimevndres" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="Perfil de GitHub de Jvimevndres">
+                  <span class="contact-item-icon" aria-hidden="true"><i class="fa-brands fa-github"></i></span>
+                  <span>github.com/Jvimevndres</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrap reveal">
+            <form
+              name="contacto-portfolio"
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+              class="contact-form"
+              id="contactForm"
+              novalidate
+              aria-label="Formulario de contacto"
+            >
+              <!-- Netlify honeypot -->
+              <p class="hidden" aria-hidden="true">
+                <label>No rellenes este campo: <input name="bot-field" tabindex="-1" /></label>
+              </p>
+              <!-- Netlify form name (required for SSG/SPA deploys) -->
+              <input type="hidden" name="form-name" value="contacto-portfolio" />
+
+              <div class="form-group">
+                <label for="name" class="form-label">Nombre</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="Tu nombre completo"
+                  required
+                  autocomplete="name"
+                  aria-required="true"
+                />
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="tu@email.com"
+                  required
+                  autocomplete="email"
+                  aria-required="true"
+                />
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input form-textarea"
+                  placeholder="Cuéntame sobre tu proyecto o propuesta..."
+                  required
+                  rows="5"
+                  aria-required="true"
+                ></textarea>
+                <span class="form-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                <span class="btn-text">Enviar Mensaje</span>
+                <span class="btn-loading hidden" aria-hidden="true">
+                  <i class="fa-solid fa-circle-notch fa-spin"></i> Enviando...
+                </span>
+              </button>
+
+              <div class="form-success hidden" role="status" aria-live="polite">
+                <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                ¡Mensaje enviado! Me pondré en contacto contigo pronto.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#hero" class="footer-logo" aria-label="Volver al inicio">&lt; JAH /&gt;</a>
+
+        <p class="footer-copy">
+          Diseñado &amp; desarrollado por
+          <span class="accent-text">Jaime Herrera</span> &copy; <span id="footerYear"></span>
+        </p>
+
+        <ul class="footer-social" role="list" aria-label="Redes sociales">
+          <li>
+            <a href="mailto:Jaimejym1999@gmail.com" class="social-link" aria-label="Email">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jaime-herrera-b78470241/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Jvimevndres" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
