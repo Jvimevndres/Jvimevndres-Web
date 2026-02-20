@@ -864,6 +864,7 @@ button {
 }
 
 .project-card {
+  position: relative;
   background: var(--clr-bg-card);
   border: 1px solid var(--clr-border);
   border-radius: var(--radius-lg);
@@ -921,6 +922,8 @@ button {
 .project-links {
   display: flex;
   gap: 0.75rem;
+  position: relative;
+  z-index: 1;
 }
 
 .project-link {
@@ -994,6 +997,15 @@ button {
     border-radius: 100px;
     letter-spacing: 0.04em;
   }
+}
+
+/* Stretched link — cubre toda la tarjeta */
+.stretched-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
 }
 
 /* ─── 13. CONTACT SECTION ───────────────────────────────────── */
